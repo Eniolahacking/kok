@@ -402,28 +402,8 @@ def a_s():
         print ''
         print '\033[1;31;1m~~~~ Auto pass public cracking ~~~~'
         print ''
-        print '\033[0;96m For example: 123 , 1234 , 12345, 786 , 12 , 1122'
+        print '\033[0;96m For @efk welcome to my group'
         print ''
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
-        p3 = raw_input(' \033[1;92m[3]Name + digit: ')
-        p4 = raw_input(' \033[1;92m[4]Name + digit: ')
-        p5 = raw_input(' \033[1;92m[5]Name + digit: ')
-        p6 = raw_input(' \033[1;92m[6]Name + digit: ')
-        p7 = raw_input(' \033[1;92m[7]Name + digit: ')
-        p8 = raw_input(' \033[1;92m[8]Name + digit: ')
-	p9 = raw_input(' \033[1;92m[9]Name + digit: ')
-	pass10 = raw_input('\033[1;92m[10]Password: ')
-	pass11 = raw_input('\033[1;92m[11]Password: ')
-	pass12 = raw_input('\033[1;92m[12]Password: ')
-	pass13 = raw_input('\033[1;92m[13]Password: ')
-	pass14 = raw_input('\033[1;92m[14]Password: ')
-	pass15 = raw_input('\033[1;92m[15]Password: ')
-	pass16 = raw_input('\033[1;92m[16]Password: ')
-	pass17 = raw_input('\033[1;92m[17]Password: ')
-	pass18 = raw_input('\033[1;92m[18]Password: ')
-	pass19 = raw_input('\033[1;92m[19]Password: ')
-	pass20 = raw_input('\033[1;92m[20]Password: ')
         idt = raw_input('\033[0;96m[★]Enter id: ')
         
         try:
