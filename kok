@@ -405,14 +405,14 @@ def a_s():
         print '\033[0;96m For @efk welcome to my group'
         print ''
         idt = raw_input('\033[0;96m[★]Enter id: ')
-        
-        try:
-        r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
-        q = json.loads(r.text)
-        name = q["name"]
+       
     except(KeyError):
             os.system('clear')
             print logo
+  try:
+        r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
+        q = json.loads(r.text)
+        name = q["name"]
             print ''
             print '\033[1;31;1m~~~~Auto pass public cracking~~~~'
             print ''
