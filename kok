@@ -407,7 +407,7 @@ def a_s():
         idt = raw_input('\033[0;96m[★]Enter id: ')
         
         try:
-        r = requests.get("https://graph.facebook.com/me?access_token="+token)
+        r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
         q = json.loads(r.text)
         name = q["name"]
     except(KeyError):
