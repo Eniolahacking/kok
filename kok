@@ -443,7 +443,7 @@ def a_s():
         
         r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 
-			q = json.loads(r.text)
+			q = json.loads(data)
 
 			print("[!] Target from : "+q["name"])
             os.system('clear')
