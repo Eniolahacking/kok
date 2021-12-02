@@ -417,7 +417,6 @@ def a_s():
             print '\033[1;31;1m~~~~Auto pass public cracking~~~~'
             print ''
             print ' \033[1;92mCloning from: ' + z
-        except (KeyError, IOError):
             print ''
             print '\t Invalid user \x1b[0;97m'
             print ''
